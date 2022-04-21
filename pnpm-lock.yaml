@@ -3,6 +3,18 @@ lockfileVersion: 5.3
 importers:
 
   .:
+    specifiers:
+      pnpm: ^6.32.9
+    dependencies:
+      pnpm: 6.32.9
+
+  packages/corgi:
+    specifiers: {}
+
+  packages/crm:
+    specifiers: {}
+
+  packages/utils:
     specifiers: {}
 
   packages/website:
@@ -12,3 +24,11 @@ importers:
     dependencies:
       corgi: link:../corgi
       utils: link:../utils
+
+packages:
+
+  /pnpm/6.32.9:
+    resolution: {integrity: sha512-fU/urJXv2Q8l4n8FW4Qx54KGDTVMpa3n7azqa7i65XZtG5Mcpa35D+HTmAL/7G3u/3R9WGPG4CdLU7631Ti6aA==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: false
