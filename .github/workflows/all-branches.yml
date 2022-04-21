@@ -2,5 +2,8 @@ name: All commits
 
 on: push
 jobs:
-    name: run shout
-    run: pnpm -r shout
+    run_shout:
+      runs_on: ubuntu-latest
+      steps:
+        name: run shout
+        run: pnpm -r shout
