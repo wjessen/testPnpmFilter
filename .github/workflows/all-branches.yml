@@ -5,5 +5,7 @@ jobs:
   run_shout:
     runs-on: ubuntu-latest
     steps:
+
       - name: run shout
-        run: pnpm -r shout
+        run: pnpm --filter {packages/website} shout
+

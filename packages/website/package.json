@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"shout":"echo 'website was run'"
-
+    "shout": "echo 'website was run'"
   },
-
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "corgi": "workspace:^1.0.0",
+    "utils": "workspace:^1.0.0"
+  }
 }
