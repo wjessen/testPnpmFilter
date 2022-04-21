@@ -1,0 +1,15 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/waynejessen/test/testPnpmFilter"
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_SCRIPT",
+    "err": {
+      "name": "pnpm",
+      "message": "Missing script: shout",
+      "code": "ERR_PNPM_NO_SCRIPT",
+      "stack": "pnpm: Missing script: shout\n    at Object.handler (/Users/waynejessen/pnpm-global/5/node_modules/.pnpm/pnpm@6.28.0/node_modules/pnpm/dist/pnpm.cjs:177401:15)\n    at async /Users/waynejessen/pnpm-global/5/node_modules/.pnpm/pnpm@6.28.0/node_modules/pnpm/dist/pnpm.cjs:181595:21\n    at async run (/Users/waynejessen/pnpm-global/5/node_modules/.pnpm/pnpm@6.28.0/node_modules/pnpm/dist/pnpm.cjs:181569:34)\n    at async runPnpm (/Users/waynejessen/pnpm-global/5/node_modules/.pnpm/pnpm@6.28.0/node_modules/pnpm/dist/pnpm.cjs:181780:5)\n    at async /Users/waynejessen/pnpm-global/5/node_modules/.pnpm/pnpm@6.28.0/node_modules/pnpm/dist/pnpm.cjs:181772:7"
+    }
+  }
+}
