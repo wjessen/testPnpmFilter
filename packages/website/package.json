@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"shout":"echo 'website was run'"
+
+  },
+
+  "author": "",
+  "license": "ISC"
+}

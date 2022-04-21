@@ -1,0 +1,11 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"shout": "echo 'utils was run'"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+name: All commits 
+
+on: push
+jobs:
+    name: run shout
+    run: pnpm -r shout

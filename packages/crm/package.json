@@ -1,0 +1,11 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"shout": "echo 'CRM was run'"  
+},
+  "author": "",
+  "license": "ISC"
+}
