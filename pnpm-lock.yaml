@@ -1,0 +1,14 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/website:
+    specifiers:
+      corgi: workspace:^1.0.0
+      utils: workspace:^1.0.0
+    dependencies:
+      corgi: link:../corgi
+      utils: link:../utils

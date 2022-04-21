@@ -16,5 +16,5 @@ jobs:
         run: pnpm i
 
       - name: run shout
-        run: pnpm --filter {packages/website} shout
+        run: pnpm --filter {packages/website}[HEAD~1] shout
 
