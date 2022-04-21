@@ -5,7 +5,9 @@ jobs:
   run_shout:
     runs-on: ubuntu-latest
     steps:
-      - name: instal
+
+      - uses: actions/checkout@v2
+      - name: install
         run: npm i
 
       - name: run shout
