@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wjessen/testPnpmFilter/issues"
   },
-  "homepage": "https://github.com/wjessen/testPnpmFilter#readme"
+  "homepage": "https://github.com/wjessen/testPnpmFilter#readme",
+  "dependencies": {
+    "pnpm": "^6.32.9"
+  }
 }
